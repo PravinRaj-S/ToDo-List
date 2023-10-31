@@ -3,7 +3,7 @@ import React from "react";
 const Header = ()=> {
 
     return (
-        <header className="container-fluid p-3">
+        <header className="container-fluid p-2">
             <h3>ToDo List</h3>
         </header>
     );

@@ -5,3 +5,23 @@ header{
     font-family: 'Agbalumo', sans-serif;
     color: #fff;
 }
+
+.todo-main{
+    min-height: 85vh;
+}
+
+.todo-container{
+    background-color: #f8f366;
+    border-radius: 15px;
+    border: none;
+    width: 420px;
+    height: 530px;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.form-control:focus{
+    outline: none;
+    box-shadow: none;
+    
+}
