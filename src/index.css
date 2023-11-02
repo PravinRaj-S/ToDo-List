@@ -1,27 +1,50 @@
-@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Griffy&display=swap');
 
-header{
-    background-color: #E9B824;
-    font-family: 'Agbalumo', sans-serif;
-    color: #fff;
+
+body{
+    background-color: #FFB000;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Caveat', sans-serif;
 }
 
-.todo-main{
-    min-height: 85vh;
-}
-
-.todo-container{
-    background-color: #f8f366;
-    border-radius: 15px;
-    border: none;
-    width: 420px;
-    height: 530px;
+.todo-list{
+    background-color: #fff;
     padding: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 400px;
+    min-height: 600px;
+    border-radius: 10px;
 }
 
-.form-control:focus{
+.input{
+    border: none;
+    border-bottom: 3px dashed #E7B10A;
+    margin: 0 4px;
+    font-size: 30px;
+}
+
+.input:focus{
     outline: none;
     box-shadow: none;
-    
+    border-bottom: 3px dashed #E7B10A;
+}
+
+.list ul li{
+    font-size: 30px;
+}
+
+.list{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+header h3{
+    font-family: 'Griffy', serif;
+    font-size: 40px;
+}
+.button{
+    font-size: 25px;
 }
